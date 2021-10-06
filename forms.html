@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formalar</title>
+</head>
+
+<body>
+    <form action="test.html">
+        <label for="ism">Ismingizni kiriting: </label>
+        <input type="text" id="ism" required>
+        <br>
+        <label for="pochta">Pochtangizni kiriting: </label>
+        <input type="email" id="pochta" readonly value="salom@aa.ru">
+        <br>
+        <label for="parol">Parolingizni kiriting: </label>
+        <input type="password" id="parol" minlength="2" maxlength="10">
+        <br>
+
+        <label>
+            A variant:
+            <input type="radio" name="test">
+        </label>
+        <label>
+            B variant:
+            <input type="radio" name="test">
+        </label>
+        <label>
+            C variant:
+            <input type="radio" name="test">
+        </label>
+        <label>
+            D variant:
+            <input type="radio" name="test">
+        </label>
+
+        <br>
+
+
+        <input type="checkbox">
+        <label>Shartlarga rozimisiz?</label>
+        <br>
+
+        <hr>
+
+        <select>
+            <option>Rus tili</option>
+            <option>Ingliz tili</option>
+            <option>Nemis tili</option>
+            <option>Arab tili</option>
+            <option>Xitoy tili</option>
+        </select>
+
+
+        <select multiple>
+            <option>Rus tili</option>
+            <option>Ingliz tili</option>
+            <option>Nemis tili</option>
+            <option>Arab tili</option>
+            <option>Xitoy tili</option>
+        </select>
+
+        <hr>
+
+
+        <textarea cols="50" rows="2"></textarea>
+
+
+        <hr>
+        <br>
+
+        <input type="button" value="ok">
+        <input type="submit" value="submit-yuborish">
+        <input type="reset" value="clear">
+        <button disabled>Jo'natish</button>
+
+        <hr>
+
+        <input type="color">
+
+        <hr>
+        <input type="date">
+        <input type="datetime-local">
+        <input type="week">
+        <input type="time">
+        <input type="month">
+        <hr>
+        <br>
+        <input type="file">
+        <input type="file" multiple>
+        <input type="number" min="0" max="12">
+        <input type="range">
+        <input type="search">
+        <input type="url">
+    </form>
+</body>
+
+</html>
